@@ -34,7 +34,7 @@ function giveinfo(query1) {
 
     var data = {
         model: sModel,
-        prompt: "give me symptoms about " + query1 + " in paragraphs and tell me the specialist needed for the disease and a health plan to reduce impacts of the disease after you get it ",
+        prompt: "give me symptoms about " + query1 + " in the next paragraph tell me the specialist needed for the disease and a health plan that includes a diet and daily ruitine to reduce impacts of the disease after you get it ",
         max_tokens: iMaxTokens,
         user: sUserId,
         temperature:  dTemperature,
