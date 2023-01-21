@@ -48,3 +48,15 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
