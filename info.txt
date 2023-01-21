@@ -1,22 +1,22 @@
 Website Description: 
 
-The website for all your healthcare needs and to support trustable charities. We the creators priotize providing quality, compassionate car to our patients. Our team of epreciend coders have developed this website to provide to your healthcare needs and donate to charities. 
+We RED-OAKS are the website for all your healthcare needs and to support trustable charities. We the creators priotize providing quality, compassionate car to our patients. Our team of epreciend coders have developed this website to provide to your healthcare needs 
 
 Symptom Analysis: 
 
 The symptom analysis is a tool developed by the red oaks coders, to help the patients in need to get the right medication and diagnosis required for there healthcare issues.
-ßßß
-
-kostní
-s
 
 
+ 5. Nutrition Counseling program which helps and supports ones with chronic diseases and diabetes 
+ 
+ this program will support and help them with Nutrition education , meal planning  
+ and physical activity guidance for safety
 
 
-
-
-
-
+6- Problem statement -
+With multiple diseases spreading around the world everyday, access to reliable medical information has become rare to find for anyone in a any financial situation
+. Additionally, fake news has become common in the world which increases the difficulty of finding medical sources.
+ An example of this is the COVID-19 pandemic.   
 
 
 
