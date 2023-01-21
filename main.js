@@ -13,12 +13,12 @@ function analyzesymptoms(query) {
             try {
                 oJson = JSON.parse(oHttp.responseText);
             } catch (ex) {
-                returntext += "Error: " + ex.message
+                returntext += "error: " + ex.message
             }
             if (oJson.choices && oJson.choices[0].text) {
                 var s = oJson.choices[0].text;
 
-                if (s == "") s = "No response";
+                
                 returntext += "" + s;
                 document.getElementById('diagnosis').innerHTML = returntext;
 
