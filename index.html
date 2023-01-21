@@ -9,62 +9,90 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <style>
-        body {
-                font-family: Tahoma;
+        
+    body {
+        font-family: Tahoma;
         }
+
         .navbar {
-            overflow: hidden;
-            background-color: #334;
+        overflow: hidden;
+        background-color: #333;
         }
+
         .navbar a {
-            float: left;
-            font-size: 14px;
-            text-align: center;
-            color: white;
-            padding: 12px, 14px;
-            text-decoration: none;
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
         }
+
         .dropdown {
-            float: left;
-            overflow: hidden;
+        float: left;
+        overflow: hidden;
         }
+
         .dropdown .dropbtn {
-            font-size: 14px;
-            color: white;
-            border: none;
-            outline: none;
-            padding: 12px, 14px;
-            font-family: Tahoma;
-            margin: 0;
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
         }
+
         .navbar a:hover, .dropdown:hover .dropbtn {
-            outline: red;
+        background-color: red;
         }
+
         .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
         }
 
         .dropdown-content a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
         }
 
-        .dropdown-content a:hover {
-            background-color: rgba(221, 221, 221, 0.904);
-        }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+}
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+    .dropdown:hover .dropdown-content {
+        display: block;
+}
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+    }
+    nav {
+        position: absolute;
+        display: flex;
+        padding: 20px 8%;
+        justify-content: space-beetween;
+}
+    nav ul {
+        display: inline-bock;
+        margin-left: 40px
+    }
+
+    
+
+</style>
 
 
         </style>
@@ -74,28 +102,21 @@
             <video autoplay loop muted play-inline class="back-video">
                 <source src="pexels-rodnae-productions-6130537.mp4" type="video/mp4">
             </video>
- <nav >
-    <img src="" class="logo">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our goal</a></li>
-        <li><a href="#">Symptom checker</a></li>
-        <li><a href="#">Charity</a></li>
-        <li><a href="#">Nutrition council</a></li>
-    </ul>
-  
- </nav>
-    
- <div class="Red">
-    <h1>RED-OAKS</h1>
-    <a href="">Explore</a>
- </div>
-       
-           
-        </div> 
-    
-    
-    </nav>
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#news">News</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div> 
+              </div>
+              
         <script src="" async defer></script>
     </body>
 </html>
