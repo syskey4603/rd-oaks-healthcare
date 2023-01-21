@@ -72,6 +72,10 @@ nav ul li a{
     margin-top:20px;
 }
 
+.content a:hover{
+    border: 2px solid red;
+}
+
 .back-video{
     position:absolute;
     right:0;
@@ -106,6 +110,7 @@ p {
     font-size: 25px;
     color: white;
 }
+
 
 
 
