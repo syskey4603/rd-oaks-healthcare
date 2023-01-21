@@ -108,27 +108,24 @@ nav li a:hover{
     
 }
 
-p {
+.p1 {
     font-family: tahoma;
     font-size: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 .LOL{
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight: bold;
+    font-family: tahoma;
+    font-size: 20px;
 }
 
-.why{
-  
-    border: 3px solid green;
-   
+.why {
+    font-family: tahoma;
 }
 
-.bro{
-    border: 3px green;
-}
 
 h1{
     color: #FF0000;
