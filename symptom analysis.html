@@ -9,8 +9,40 @@
         <meta name="description" content="">
         <meta name="vie wport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="symptomana.css">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(123, 123, 123);
+              }
+              
+            li {
+                float: left;
+              }
+              
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+            li a:hover {
+                background-color: rgb(128, 71, 71);
+              }
+            </style>
+             
     </head>
     <body>
+        <ul>
+            <li style="float:right"> <a href="index.html">Home</a></li>
+            <li><a href="symptom analysis.html">Symptom analysis</a></li>
+            <li><a href="counciler.html">Nutrition councellor</a></li>
+            <li><a href="problem_statement.html">Problem statement</a></li>
+          </ul>
         <p>Enter symptoms here:</p>
         <input type="text" id="symptoms" name="symptoms" class="test"><br><br>
         <input type="button" id="submit" name="submit" value="submit" onclick="javascript:diagnoseproblem();">
