@@ -98,6 +98,11 @@ nav li a:hover{
     transition:all 0.4s ease 0s;
 }
 
+p {
+    font-family: tahoma;
+    font-size: 25px;
+    color: white;
+}
 
 
 
