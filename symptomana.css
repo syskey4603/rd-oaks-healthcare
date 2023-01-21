@@ -9,6 +9,12 @@ input {
     background: white;
 }
 
+.test {
+    border-color: red;
+    width: 500px;
+}
+
+
 
 
 body{
