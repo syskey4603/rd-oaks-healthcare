@@ -1,5 +1,5 @@
-.hero{
-    width: 100%;
+.hero{  
+    margin: 100px;
     height:100vh ;
     background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3)) ;
     position: relative;
@@ -10,10 +10,8 @@
 }
 
 .back-video{
-    position:absolute ;
-    right:0 ;
-    bottom:0 ;
-    z-index: index -1; ;
+    margin: 100px;
+    
 }
 
 
