@@ -116,7 +116,14 @@ p {
 
 
 .LOL{
-    color: white;
+    color:white;
+    font-weight: bold;
+}
+
+.why{
+  
+    border: 3px solid green;
+   
 }
 
 
