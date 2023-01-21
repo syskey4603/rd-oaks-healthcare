@@ -1,42 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="symptomana.css">
-    <style>
-        ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: rgb(123, 123, 123);
-              }
-              
-            li {
-                float: left;
-              }
-              
-            li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-              }
-            
-            .active a {
-              background-color: rgb(128, 71, 71);
-            }
-              
-            li a:hover {
-                background-color: rgb(128, 71, 71);
-              }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li style="float:right"> <a href="index.html">Home</a></li>
-        <li><a href="symptom analysis.html">Symptom analysis</a></li>
-        <li><a href="counciler.html">Nutrition councellor</a></li>
-        <li class="active"><a href="problem_statement.html">Problem statement</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    <p>We believe that healthcare is a right. Everyone in the world deserves to access resources for their health. However, as time passes, more diseases are discovered, and healthcare becomes increasingly expensive; creating difficult conditions for underprivileged societies.</p>
+    <div class="header">
+        <h1>Our mission</h1>
+        
+      </div>
+      
+      <div class="topnav">
+        <div style="float:right">
+        <a href="index.html">Home</a>
+      </div>
+        <a href="symptom analysis.html">Symptom analysis</a>
+        <a href="counciler.html">Nutrition councellor</a>
+       <div class="active">
+        <a href="problem_statement.html">Problem statement</a>
+      </div> 
+        <a href="about.html">About</a>
+        
+
+
+      </div>
+      
+      
+
+    
+
+    <p> 
+      We believe that healthcare is a right. Everyone in the world deserves to access resources for their health. However, as time passes, more diseases are discovered, and healthcare becomes increasingly expensive; creating difficult conditions for underprivileged societies.
+    </p>
+    
+    <style>
+.active a {
+    background-color: rgb(128, 71, 71);
+}
+p {
+  font-family: tahoma;
+  font-size: 25px;
+}
+.align a{
+  text-align: right;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #e2e2e2;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(128, 71, 71);
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+       body{
+  
+  background-image: url('https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61802.jpg?w=2000');
+}
+    </style>
 </body>
+</html>
