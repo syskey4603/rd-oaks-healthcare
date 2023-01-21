@@ -58,6 +58,8 @@ nav ul li a{
 }
 .content h1:hover{
     -webkit-text-stroke: 2px red;
+    transition: 0.5s;
+    
    
 
 }
@@ -74,6 +76,7 @@ nav ul li a{
 
 .content a:hover{
     border: 2px solid red;
+    transition: 0.5s;
 }
 
 .back-video{
