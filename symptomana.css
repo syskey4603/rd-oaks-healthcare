@@ -1,6 +1,14 @@
-.symptoms{
-    
+p {
+    font-family: Tahoma;
+    font-size: 50px;
+
 }
+input {
+    font-family: Tahoma;
+    font-size: 50px;
+    background: white;
+}
+
 
 
 body{
