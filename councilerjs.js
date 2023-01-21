@@ -1,4 +1,4 @@
-function analyzesymptoms(query) {
+function giveinfo(query1) {
     var returntext = '';
     var oHttp = new XMLHttpRequest();
     oHttp.open("POST", "https://api.openai.com/v1/completions");
@@ -20,7 +20,7 @@ function analyzesymptoms(query) {
 
                 
                 returntext += "" + s;
-                document.getElementById('diagnosis').innerHTML = returntext;
+                document.getElementById('printinfo').innerHTML = returntext;
 
                 
             }            
@@ -34,7 +34,7 @@ function analyzesymptoms(query) {
 
     var data = {
         model: sModel,
-        prompt: "my symptoms are " + query + " list the possible disease",
+        prompt: "give me information about " + query1 + " and tell me the specialist needed for the disease and a health plan to reeduce impacts of the disease",
         max_tokens: iMaxTokens,
         user: sUserId,
         temperature:  dTemperature,
@@ -43,13 +43,13 @@ function analyzesymptoms(query) {
         stop: ["#", ";"] 
     }
 
-    document.getElementById('diagnosis').innerHTML = "thinking...";
+    document.getElementById('printinfo').innerHTML = "thinking...";
     oHttp.send(JSON.stringify(data));
 
 }
 
 
-function diagnoseproblem() {
-    analyzesymptoms(document.getElementById('symptoms').value);
+function test123() {
+    giveinfo(document.getElementById('information1').value);
 
 }
