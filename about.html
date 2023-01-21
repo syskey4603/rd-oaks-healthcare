@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h1>About us!</h1>
+        
+      </div>
+      
+      <div class="topnav">
+        <div style="float:right">
+        <a href="index.html">Home</a>
+      </div>
+        <a href="symptom analysis.html">Symptom analysis</a>
+        <a href="counciler.html">Nutrition councellor</a>
+        <a href="problem_statement.html">Problem statement</a>
+        <div class="active">
+        <a href="about.html">About</a>
+      </div>
+
+
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <h2>Column</h2>
+          <p> </p>
+        </div>
+        
+        <div class="column">
+          <h2>Column</h2>
+          <p> </p>
+        </div>
+        
+        <div class="column">
+          <h2>Column</h2>
+          <p> </p>
+        </div>
+      </div>
 
     <h1> About us </h1>
 
@@ -18,5 +53,68 @@
         This website was created by our team of programmers to meet your healthcare demands.
     </p>
     
+    <style>
+.active a {
+    background-color: rgb(128, 71, 71);
+}
+
+.align a{
+  text-align: right;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #e2e2e2;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(128, 71, 71);
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+       body{
+  
+  background-image: url('https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61802.jpg?w=2000');
+}
+    </style>
 </body>
 </html>
