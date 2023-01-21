@@ -15,6 +15,7 @@
         "document-title": "off"
       }
     ],
-    "highest-available-document-mode": "off"
+    "highest-available-document-mode": "off",
+    "meta-viewport": "off"
   }
 }
