@@ -49,7 +49,7 @@ nav{
     justify-content: space-between;
 }
 
-nav ul li a{
+nav ul li {
     text-decoration: none;
     display: inline-block;
     margin-left: 40px;
