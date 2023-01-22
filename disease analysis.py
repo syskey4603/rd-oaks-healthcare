@@ -3,7 +3,7 @@ import requests
 import webbrowser
 
 def wikiscrape(disease):
-    URL = "https://en.wikipedia.org/wiki/"
+    URL = "https://www.health.harvard.edu/a-through-c"
     r = requests.get(URL + disease)
     soup = BeautifulSoup(r.content, 'html5lib')
     diseaselist = soup.findAll('p')
